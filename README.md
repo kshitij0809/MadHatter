@@ -1,2 +1,1 @@
-# MadHatter
-ReactApp for frontend.
+ReactApp for Basic FrontEnd.
