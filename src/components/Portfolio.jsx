@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col, Image } from 'react-bootstrap';
-import './News.css';
+import './Portfolio.css';
 
-export default class News extends Component {
+export default class Portfolio extends Component {
   render() {
     return (
       <div>

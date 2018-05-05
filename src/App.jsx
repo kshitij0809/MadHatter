@@ -2,9 +2,13 @@ import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Home from './components/Home';
-import About from './components/About';
-import News from './components/News';
+import Services from './components/Services';
+import Portfolio from './components/Portfolio';
+import Testimonials from './components/Testimonials';
+import Contact from './components/Contact';
+import Clients from './components/Clients';
 import Navbar from './components/CustomNavbar';
+
 
 class App extends Component {
   render() {
@@ -13,8 +17,11 @@ class App extends Component {
         <div>
           <Navbar />
           <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/news" component={News} />
+          <Route path="/Services" component={Services} />
+          <Route path="/Portfolio" component={Portfolio} />
+          <Route path="/Testimonials" component={Testimonials} />
+          <Route path="/Contact" component={Contact} />
+          <Route path="/Clients" component={Clients} />
         </div>
       </Router>
     );
