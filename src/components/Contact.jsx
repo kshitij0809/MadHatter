@@ -13,7 +13,7 @@ export default class Contact extends Component {
          </Col>  
           <Col xs={5} sm={5} md={5} className="person-wrapper">
            <span class="contact100-form-title">
-          Contact Us with
+          Contact Us With
         </span>
          <span class="contact100-number">
           +91898765421
