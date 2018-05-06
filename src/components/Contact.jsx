@@ -8,10 +8,10 @@ export default class Contact extends Component {
     return (
       <Grid>       
         <Row className="show-grid text-center">
-          <Col xs={7} sm={7} md={7} className="col-contact-image">
+          <Col xs={12} sm={7} md={7} className="col-contact-image">
             <Image src="assets/bg-01.jpg" className="Contact-image"/>
          </Col>  
-          <Col xs={5} sm={5} md={5} className="person-wrapper">
+          <Col xs={12} sm={5} md={5} className="person-wrapper">
            <span class="contact100-form-title">
           Contact Us With
         </span>

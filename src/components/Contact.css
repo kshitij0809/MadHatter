@@ -69,3 +69,23 @@ padding-left: 42px;
 	color: black;
 
 }
+
+
+@media only screen and (max-width: 768px) {
+
+
+
+#social #container ul {
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-bottom: 14px;
+}
+#social #container ul li {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style-type: none;
+}
+
+
+}
