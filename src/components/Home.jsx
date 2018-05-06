@@ -6,32 +6,36 @@ import './Home.css';
 export default class Home extends Component {
   render() {
     return (
-      <Grid>
-        <Jumbotron>
-          <h2>Welcome to CodeLife</h2>
-          <p>This is how to build a website with React, React-Router & React-Bootstrap</p>
-          <Link to="/about">
-            <Button bsStyle="primary">Learn More</Button>
-          </Link>
-        </Jumbotron>
-        <Row className="show-grid text-center">
-          <Col xs={12} sm={4} className="person-wrapper">
-            <Image src="assets/person-1.jpg" circle className="profile-pic"/>
-            <h3>Frank</h3>
-            <p>That's a crooked tree. We'll send him to Washington. These little son of a guns hide in your brush and you just have to push them out.</p>
-          </Col>
-          <Col xs={12} sm={4} className="person-wrapper">
-            <Image src="assets/person-2.jpg" circle className="profile-pic"/>
-            <h3>Vanessa</h3>
-            <p>That's a crooked tree. We'll send him to Washington. These little son of a guns hide in your brush and you just have to push them out.</p>
-          </Col>
-          <Col xs={12} sm={4} className="person-wrapper">
-            <Image src="assets/person-3.jpg" circle className="profile-pic"/>
-            <h3>Riff</h3>
-            <p>That's a crooked tree. We'll send him to Washington. These little son of a guns hide in your brush and you just have to push them out.</p>
-          </Col>
-        </Row>
-      </Grid>
+     <div className="intro-header">
+      <div className="bg-overlay">
+        <div className="container">
+  
+
+            <div className="row">
+                <div className="col-lg-12">
+                    <div className="intro-message">
+                        <h1>Mad Hatters India</h1>
+                        <h3>Where Awesomeness Is Brought To Life.</h3>
+                        <ul className="list-inline intro-social-buttons">
+                            <li>
+                                <a href="https://twitter.com/Ferreir4Thiago" target="_blank" className="btn btn-default btn-lg"><i className="fab fa-twitter fa-fw"></i> <span className="network-name">Twitter</span></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/ThiagoFerreir4" target="_blank" className="btn btn-default btn-lg "><i className="fab fa-facebook fa-fw"></i> <span className="network-name">facebook</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/thiagoferreir4" target="_blank" className="btn btn-default btn-lg"><i className="fab fa-linkedin fa-fw"></i> <span className="network-name">Linkedin</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.freecodecamp.com/thiagoferreira" target="_blank" className="btn btn-default btn-lg"><i className="fab fa-instagram fa-fw"></i> <span className="network-name">instagram</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+      </div>
+    </div>
+    </div>
     )
   }
 }
