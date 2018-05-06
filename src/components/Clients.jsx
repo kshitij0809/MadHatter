@@ -1,21 +1,81 @@
 import React, { Component } from 'react'
-import { Grid, Col, Image } from 'react-bootstrap';
+import { Row ,Grid, Col, Image } from 'react-bootstrap';
 import './Clients.css';
 
 export default class Clients extends Component {
   render() {
     return (
       <div>
-        <Image src="assets/dog-people.jpg" className="header-image" />
+        <h1 className="clients-heading shadow">OUR CLIENTS</h1>
         <Grid>
-          <Col xs={12} sm={8} smOffset={2}>
-            <Image src="assets/person-1.jpg" className="about-profile-pic" rounded />
-            <h3>Frank The Tank</h3>
-            <p>That's a crooked tree. We'll send him to Washington. These little son of a guns hide in your brush and you just have to push them out. These trees are so much fun. I get started on them and I have a hard time stopping. How to paint. That's easy. What to paint. That's much harder. Be brave. The man who does the best job is the one who is happy at his job.</p>
-            <p>Anyone can paint. You can do anything here. So don't worry about it. Life is too short to be alone, too precious. Share it with a friend. Every highlight needs it's own personal shadow.</p>
-            <p>That's what makes life fun. That you can make these decisions. That you can create the world that you want. Of course he's a happy little stone, cause we don't have any other kind. It's so important to do something every day that will make you happy.</p>
-            <p>You better get your coat out, this is going to be a cold painting. That's the way I look when I get home late; black and blue. That's crazy. We're trying to teach you a technique here and how to use it.</p>
+           <Row className="show-grid text-center">
+          <Col xs={4} sm={4} className="person-wrapper card">
+            <Image src="assets/person-1.jpg" circle className="profile-pic"/>
+            <h3>Frank</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </Col>
+          <Col xs={4} sm={4} className="person-wrapper card">
+            <Image src="assets/person-2.jpg" circle className="profile-pic"/>
+            <h3>Vanessa</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </Col>
+          <Col xs={4} sm={4} className="person-wrapper card">
+            <Image src="assets/person-3.jpg" circle className="profile-pic"/>
+            <h3>Riff</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </Col>
+        </Row>
+         <Row className="show-grid text-center">
+          <Col xs={4} sm={4} className="person-wrapper card">
+            <Image src="assets/person-1.jpg" circle className="profile-pic"/>
+            <h3>Frank</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </Col>
+          <Col xs={4} sm={4} className="person-wrapper card">
+            <Image src="assets/person-2.jpg" circle className="profile-pic"/>
+            <h3>Vanessa</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </Col>
+          <Col xs={4} sm={4} className="person-wrapper card">
+            <Image src="assets/person-3.jpg" circle className="profile-pic"/>
+            <h3>Riff</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </Col>
+        </Row>
+         <Row className="show-grid text-center">
+          <Col xs={4} sm={4} className="person-wrapper card">
+            <Image src="assets/person-1.jpg" circle className="profile-pic"/>
+            <h3>Frank</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </Col>
+          <Col xs={4} sm={4} className="person-wrapper card">
+            <Image src="assets/person-2.jpg" circle className="profile-pic"/>
+            <h3>Vanessa</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </Col>
+          <Col xs={4} sm={4} className="person-wrapper card">
+            <Image src="assets/person-3.jpg" circle className="profile-pic"/>
+            <h3>Riff</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </Col>
+        </Row>
+         <Row className="show-grid text-center">
+          <Col xs={4} sm={4} className="person-wrapper card">
+            <Image src="assets/person-1.jpg" circle className="profile-pic"/>
+            <h3>Frank</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </Col>
+          <Col xs={4} sm={4} className="person-wrapper card">
+            <Image src="assets/person-2.jpg" circle className="profile-pic"/>
+            <h3>Vanessa</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </Col>
+          <Col xs={4} sm={4} className="person-wrapper card">
+            <Image src="assets/person-3.jpg" circle className="profile-pic"/>
+            <h3>Riff</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </Col>
+        </Row>
         </Grid>
       </div>
     )
