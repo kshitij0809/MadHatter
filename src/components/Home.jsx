@@ -6,6 +6,7 @@ import './Home.css';
 export default class Home extends Component {
   render() {
     return (
+      <div>
      <div className="intro-header">
       <div className="bg-overlay">
         <div className="container">
@@ -35,6 +36,9 @@ export default class Home extends Component {
                 </div>
       </div>
     </div>
+
+    </div>
+    
     </div>
     )
   }
