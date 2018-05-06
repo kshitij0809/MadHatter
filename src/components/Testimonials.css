@@ -1,0 +1,30 @@
+	.card-test {
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    padding: 44px;
+    margin: 60px;
+    width: 75vw;
+    height: 52vh;
+    background-color: #f3ebeb;
+    border-radius: 0.5em;
+}
+.kunal-work
+{
+	    width: 70%;
+
+}
+.work-subbutton{
+
+
+border: 1px solid #111111;
+box-sizing: border-box;
+border-radius: 2px;
+background-color: transparent;
+padding-bottom: 5px;
+padding-top: 5px;
+padding-right: 15px;
+padding-left: 15px;
+float: left;}
