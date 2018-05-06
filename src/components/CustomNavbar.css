@@ -1,8 +1,6 @@
 nav.navbar, .navbar-default {
 background: #eee !important;
-    width: 100%;
-    height: 10%;
-    margin-bottom: 3%;
+   
 }
 
 .navbar-default {
@@ -14,6 +12,9 @@ background: #eee !important;
     float: left;
     font-size: 1.4em;
     font-weight: 700;
+        letter-spacing: 0.001em;
+padding: 10px;
+
 }
 .navbar-default .navbar-nav > li > a {
   
@@ -48,8 +49,14 @@ background: #eee !important;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 3em;
-  font-weight: 800;
+  font-weight: 725;
   letter-spacing: -3px;
   line-height: 1;
   position: relative;
+}
+.navbar {
+    position: relative;
+    min-height: 73px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
 }

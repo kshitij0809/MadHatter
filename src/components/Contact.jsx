@@ -6,30 +6,55 @@ import './Contact.css';
 export default class Contact extends Component {
   render() {
     return (
-      <Grid>
-        <Jumbotron>
-          <h2>Welcome to CodeLife</h2>
-          <p>This is how to build a website with React, React-Router & React-Bootstrap</p>
-          <Link to="/about">
-            <Button bsStyle="primary">Learn More</Button>
-          </Link>
-        </Jumbotron>
+      <Grid>       
         <Row className="show-grid text-center">
-          <Col xs={12} sm={4} className="person-wrapper">
-            <Image src="assets/person-1.jpg" circle className="profile-pic"/>
-            <h3>Frank</h3>
-            <p>That's a crooked tree. We'll send him to Washington. These little son of a guns hide in your brush and you just have to push them out.</p>
-          </Col>
-          <Col xs={12} sm={4} className="person-wrapper">
-            <Image src="assets/person-2.jpg" circle className="profile-pic"/>
-            <h3>Vanessa</h3>
-            <p>That's a crooked tree. We'll send him to Washington. These little son of a guns hide in your brush and you just have to push them out.</p>
-          </Col>
-          <Col xs={12} sm={4} className="person-wrapper">
-            <Image src="assets/person-3.jpg" circle className="profile-pic"/>
-            <h3>Riff</h3>
-            <p>That's a crooked tree. We'll send him to Washington. These little son of a guns hide in your brush and you just have to push them out.</p>
-          </Col>
+          <Col xs={7} sm={7} md={7} className="col-contact-image">
+            <Image src="assets/bg-01.jpg" className="Contact-image"/>
+         </Col>  
+          <Col xs={5} sm={5} md={5} className="person-wrapper">
+           <span class="contact100-form-title">
+          Contact Us with
+        </span>
+         <span class="contact100-number">
+          +91898765421
+        </span>
+         <span class="contact100-number">
+          +91898765421
+        </span>
+         <span class="contact100-email">
+          kshitijpratap0809@gmail.com
+        </span>
+
+<footer id="social">
+  <div id="container">
+  <h1 class="footer-heading">SOCIAL LINKS</h1>
+          <ul class="social-liks-list">
+
+              <li class='highlight'>
+                  <a class="fa-stack fa-1x footer-anchor" href="@@@@@" target="_blank"><i class="fab fa-behance-square fa-stack-2x"></i></a>
+              </li>
+
+              
+               <li class='highlight'>
+                  <a class="fa-stack fa-1x footer-anchor" href="@@@@@" target="_blank"><i class="fab fa-medium-m fa-stack-2x"></i></a>
+              </li>
+              
+              <li class='highlight'>
+                  <a class="fa-stack fa-1x footer-anchor" href="@@@@@" target="_blank"><i class="fab fa-dribbble fa-stack-2x"></i></a>
+              </li>
+
+
+               <li class='highlight'>
+                  <a class="fa-stack fa-1x footer-anchor" href="@@@@@" target="_blank"><i class="fab fa-linkedin fa-stack-2x"></i></a>
+              </li>
+
+          </ul>
+       </div>
+    </footer>
+
+
+
+         </Col>         
         </Row>
       </Grid>
     )

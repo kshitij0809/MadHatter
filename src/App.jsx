@@ -16,14 +16,12 @@ class App extends Component {
       <Router>
         <div>
           <Navbar />
-          <div>
           <Route exact path="/" component={Home} />
           <Route path="/Services" component={Services} />
           <Route path="/Portfolio" component={Portfolio} />
           <Route path="/Testimonials" component={Testimonials} />
           <Route path="/Contact" component={Contact} />
           <Route path="/Clients" component={Clients} />
-          </div>
         </div>
       </Router>
     );
