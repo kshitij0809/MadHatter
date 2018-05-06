@@ -38,7 +38,22 @@ export default class Home extends Component {
     </div>
 
     </div>
-    
+    <div className="content-section-a">
+      <div className="bg-overlay2">
+        <div className="container">
+            <div className="row">
+                <div className="col-lg-12 col-sm-12">
+                    
+                    <div className="clearfix"></div>
+                  <h2 className="section-heading">Why Mad Hatters India</h2>
+                        <p className="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquaLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquaLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquaLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquaLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquaLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                </div>
+                
+            </div>
+
+        </div>
+      </div>
+     </div>
     </div>
     )
   }
