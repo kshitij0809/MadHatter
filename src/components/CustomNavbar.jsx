@@ -6,7 +6,7 @@ import './CustomNavbar.css'
 export default class CustomNavbar extends Component {
   render() {
     return (
-      <Navbar default collapseOnSelect>
+      <Navbar default collapseOnSelect >
         <Navbar.Header>
           <Navbar.Brand>
             <Link to="/" className="logo">MadHatters India</Link>
@@ -14,7 +14,7 @@ export default class CustomNavbar extends Component {
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
-          <Nav pullRight>
+          <Nav pullRight fixedTop>
             
             <NavItem eventKey={1} componentClass={Link} href="/" to="/">
               Who and Why
