@@ -10,11 +10,10 @@ background: #eee !important;
 }
 .navbar-nav>li {
     float: left;
-    font-size: 1.4em;
+    font-size: 1.1em;
     font-weight: 700;
-        letter-spacing: 0.001em;
-padding: 10px;
-
+    letter-spacing: 0.001em;
+    padding: 3px;
 }
 .navbar-default .navbar-nav > li > a {
   

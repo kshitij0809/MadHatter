@@ -7,11 +7,11 @@ export default class Contact extends Component {
   render() {
     return (
       <Grid>       
-        <Row className="show-grid text-center">
-          <Col xs={12} sm={7} md={7} className="col-contact-image">
+        <Row>
+          <Col xs={12} sm={8} md={8} className="col-contact-image">
             <Image src="assets/bg-01.jpg" className="Contact-image"/>
          </Col>  
-          <Col xs={12} sm={5} md={5} className="person-wrapper">
+          <Col xs={12} sm={4} md={4} className="person-wrapper">
            <span class="contact100-form-title">
           Contact Us With
         </span>

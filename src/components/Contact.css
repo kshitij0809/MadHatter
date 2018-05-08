@@ -51,16 +51,14 @@
 
 #social #container ul {
     font-size: 1.2em;
-    padding-left: 100px;
         padding-bottom: 14px;
 }
 
 #social #container ul li {
-  float: left;
-padding-left: 42px;
-    padding-right: 42px;
-      list-style-type: none;
-
+    float: left;
+    padding-left: 36px;
+    padding-right: 17px;
+    list-style-type: none;
 }
 .footer-heading{
 	 padding-bottom: 48px;
