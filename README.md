@@ -1,1 +1,1 @@
-ReactApp for Basic FrontEnd.
+ReactApp for Basic FrontEnd PROJECT.
