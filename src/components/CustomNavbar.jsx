@@ -9,7 +9,7 @@ export default class CustomNavbar extends Component {
       <Navbar default collapseOnSelect >
         <Navbar.Header>
           <Navbar.Brand>
-            <Link to="/" className="logo">MadHatters India</Link>
+            <Link to="/" className="logo">Violet Arrow</Link>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>

@@ -22,11 +22,14 @@ h1.clients-heading {
   letter-spacing: .15em;
   text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474, -3px 6px 1px #787777, -4px 8px 1px #7b7a7a, -5px 10px 1px #7f7d7d, -6px 12px 1px #828181, -7px 14px 1px #868585, -8px 16px 1px #8b8a89;
 }
-
-.client-image{
-  height: 500px !important;
-  width: 600px;
-  padding: 130px;
+.client-image {
+    height: 500px !important;
+    width: 100vw;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* left: -18%; */
 }
 .carousel-control.left {
     background-image: -webkit-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 40%);
@@ -50,6 +53,18 @@ h1.clients-heading {
     position: relative;
     height: 88vh;
 }
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: -25px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
 @media only screen and (max-width: 768px) {
     .card {
     -webkit-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -71,6 +86,29 @@ h1.clients-heading {
   color: #131313;
   letter-spacing: .15em;
   text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474, -3px 6px 1px #787777, -4px 8px 1px #7b7a7a, -5px 10px 1px #7f7d7d, -6px 12px 1px #828181, -7px 14px 1px #868585, -8px 16px 1px #8b8a89;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 88vh;
+}
+.client-image {
+    height: 438px !important;
+    width: 100%;
+    padding: 35px;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: -100px;
+    left: 15%;
+    z-index: 10;
+    /* padding-top: 2vh !important; */
+    /* padding-bottom: 13vh !important; */
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
 }
 
