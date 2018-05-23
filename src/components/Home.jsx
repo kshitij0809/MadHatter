@@ -52,7 +52,8 @@ export default class Home extends Component {
                 
             </div>
            </div>
-      </div>  
+      </div> 
+      <div className="backgroung-image-two"> 
             <div className="row">
                 <div className="col-lg-12 col-sm-12">
                     
@@ -66,7 +67,7 @@ export default class Home extends Component {
                 <div className="col-lg-12 col-sm-12">
                     
                     <div className="clearfix"></div>
-                         <h2 className="section-heading">Our Vision</h2>
+                         <h2 className="section-heading-two">Our Vision</h2>
                          <p className="lead">To become the most trusted advisor to our clients and help all businesses reach their true potential.</p>
                      </div>
                 
@@ -75,17 +76,12 @@ export default class Home extends Component {
                 <div className="col-lg-12 col-sm-12">
                     
                     <div className="clearfix"></div>
-                         <h2 className="section-heading">Our technique</h2>
+                         <h2 className="section-heading-two">Our technique</h2>
                          <p className="lead">We use tools like story-telling, customer journey maps, among other creative tools, to take your brand to your target audience.</p>
                    </div>
                 
-            </div>
-
-
-
-
-
-       
+            </div>   
+            </div>    
      </div>
     </div>
     )

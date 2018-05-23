@@ -170,8 +170,19 @@ h2.section-heading {
     color: rgba(0, 0, 0, 0.9);
     text-align: center;
 }
+h2.section-heading-two {
+    margin-top: 15px;
+    padding-left: 29px;
+    font-weight: 700;
+    font-size: 3.4em;
+    color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
 
-
+.backgroung-image-two{ background: -webkit-linear-gradient(rgba(246, 247, 249, 0.8), rgba(246, 247, 249, 0.8)), url(https://upload.wikimedia.org/wikipedia/commons/8/8c/K2,_Mount_Godwin_Austen,_Chogori,_Savage_Mountain.jpg) no-repeat center center fixed;
+  background:  url(https://upload.wikimedia.org/wikipedia/commons/8/8c/K2,_Mount_Godwin_Austen,_Chogori,_Savage_Mountain.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
 @media only screen and (max-width: 768px) {
 
 
