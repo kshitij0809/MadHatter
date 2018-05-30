@@ -6,7 +6,7 @@ import './Home.css';
 export default class Home extends Component {
   render() {
     return (
-      <div>
+      <div className="homepage">
      <div className="intro-header">
       <div className="bg-overlay">
         <div className="container">
@@ -15,22 +15,9 @@ export default class Home extends Component {
             <div className="row">
                 <div className="col-lg-12">
                     <div className="intro-message">
-                        <h1>Violet Arrow</h1>
-                        <h3>Where Awesomeness Is Brought To Life.</h3>
-                        <ul className="list-inline intro-social-buttons">
-                            <li>
-                                <a href="https://twitter.com/Ferreir4Thiago" target="_blank" className="btn btn-default btn-lg"><i className="fab fa-twitter fa-fw"></i> <span className="network-name">Twitter</span></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/ThiagoFerreir4" target="_blank" className="btn btn-default btn-lg "><i className="fab fa-facebook fa-fw"></i> <span className="network-name">facebook</span></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/thiagoferreir4" target="_blank" className="btn btn-default btn-lg"><i className="fab fa-linkedin fa-fw"></i> <span className="network-name">Linkedin</span></a>
-                            </li>
-                            <li>
-                                <a href="https://www.freecodecamp.com/thiagoferreira" target="_blank" className="btn btn-default btn-lg"><i className="fab fa-instagram fa-fw"></i> <span className="network-name">instagram</span></a>
-                            </li>
-                        </ul>
+                        <h1>Violet Arrow Communications</h1>
+                        <h3 className="intro-message-tag">Breaking The Social Spectrum for you....</h3>
+                       
                     </div>
                     </div>
                 </div>
@@ -52,32 +39,32 @@ export default class Home extends Component {
                 
             </div>
            </div>
-      </div> 
+      </div>
+      </div>
+      <div className="content-section-b"> 
       <div className="backgroung-image-two"> 
             <div className="row">
-                <div className="col-lg-12 col-sm-12">
+                <div className="col-lg-4 col-sm-12">
                     
                     <div className="clearfix"></div>
-                         <h2 className="section-heading">Our Mission</h2>
-                         <p className="lead">To help brands find their business value and help them grow in the most natural and organic way without having to sacrifice on values and integrity.</p>
+                         <h2 className="section-heading mobile">Our Mission</h2>
+                         <p className="lead one">To help brands find their business value and help them grow in the most natural and organic way without having to sacrifice on values and integrity.</p>
                     </div>
                 
-            </div>
-            <div className="row">
-                <div className="col-lg-12 col-sm-12">
+            
+                <div className="col-lg-4 col-sm-12">
                     
                     <div className="clearfix"></div>
-                         <h2 className="section-heading-two">Our Vision</h2>
-                         <p className="lead">To become the most trusted advisor to our clients and help all businesses reach their true potential.</p>
+                         <h2 className="section-heading">Our Vision</h2>
+                         <p className="lead one">To become the most trusted advisor to our clients and help all businesses reach their true potential.</p>
                      </div>
                 
-            </div>
-            <div className="row">
-                <div className="col-lg-12 col-sm-12">
+            
+                <div className="col-lg-4 col-sm-12">
                     
                     <div className="clearfix"></div>
-                         <h2 className="section-heading-two">Our technique</h2>
-                         <p className="lead">We use tools like story-telling, customer journey maps, among other creative tools, to take your brand to your target audience.</p>
+                         <h2 className="section-heading">Our technique</h2>
+                         <p className="lead one">We use tools like story-telling, customer journey maps, among other creative tools, to take your brand to your target audience.</p>
                    </div>
                 
             </div>   

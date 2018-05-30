@@ -9,7 +9,7 @@ export default class CustomNavbar extends Component {
       <Navbar default collapseOnSelect >
         <Navbar.Header>
           <Navbar.Brand>
-            <Link to="/" className="logo">Violet Arrow</Link>
+            <Link to="/" className="logo">Violet Arrow Communications</Link>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
@@ -17,7 +17,7 @@ export default class CustomNavbar extends Component {
           <Nav pullRight fixedTop>
             
             <NavItem eventKey={1} componentClass={Link} href="/" to="/">
-              Who and Why
+              About Us
             </NavItem>
             <NavItem eventKey={2} componentClass={Link} href="/services" to="/services">
               Services
