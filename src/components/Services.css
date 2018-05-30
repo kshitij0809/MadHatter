@@ -49,7 +49,9 @@ h3.services-heading{
   color: #5b7abb;
   display: block;
 }
-
+.service:hover{
+  background-color: #f4e241 !important;
+}
 .service h4 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
