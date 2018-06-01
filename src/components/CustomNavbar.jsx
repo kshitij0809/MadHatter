@@ -3,6 +3,7 @@ import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './CustomNavbar.css'
 
+
 export default class CustomNavbar extends Component {
   render() {
     return (
@@ -17,7 +18,7 @@ export default class CustomNavbar extends Component {
           <Nav pullRight fixedTop>
             
             <NavItem eventKey={1} componentClass={Link} href="/" to="/">
-              About Us
+              <a href="#about">About Us</a>
             </NavItem>
             <NavItem eventKey={2} componentClass={Link} href="/services" to="/services">
               Services

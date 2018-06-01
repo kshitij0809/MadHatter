@@ -2,8 +2,46 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import { Jumbotron, Grid, Row, Col, Image, Button } from 'react-bootstrap';
 import './Home.css';
+import CustomNavbar from './CustomNavbar.jsx'
+
+import $ from 'jquery'; 
+
+
+
+
 
 export default class Home extends Component {
+
+
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {isToggleOn: true};
+
+  //   // This binding is necessary to make `this` work in the callback
+  //   this.handleClick = this.handleClick.bind(this);
+  // }
+
+  handleClick() {
+    console.log('clicked');
+         $(document).ready(function(){
+      $('a[href^="#"]').click(function(e) {
+          e.preventDefault();
+          var target = this.hash, $target = $(target);
+          $('html, body').stop().animate({
+              'scrollTop': $target.offset().top
+          }, 900, 'swing', function() {
+              window.location.hash = target;
+          });
+      });
+      console.log('inside');
+  });
+    // this.setState(prevState => ({
+    //   isToggleOn: !prevState.isToggleOn
+    // }));
+  }
+
+
+
   render() {
     return (
       <div className="homepage">
@@ -25,7 +63,7 @@ export default class Home extends Component {
     </div>
 
     </div>
-    <div className="content-section-a">
+    <div id="about" onClick={this.handleClick()} className="content-section-a">
       <div className="bg-overlay2">
         <div className="container">
             <div className="row">
@@ -43,7 +81,7 @@ export default class Home extends Component {
       </div>
       <div className="content-section-b"> 
       <div className="backgroung-image-two"> 
-            <div className="row">
+            <div className="row section-b">
                 <div className="col-lg-4 col-sm-12">
                     
                     <div className="clearfix"></div>
@@ -74,3 +112,19 @@ export default class Home extends Component {
     )
   }
 }
+
+
+// <script type="text/javascript">
+    
+  //    $(document).ready(function(){
+  //     $('a[href^="#"]').click(function(e) {
+  //         e.preventDefault();
+  //         var target = this.hash, $target = $(target);
+  //         $('html, body').stop().animate({
+  //             'scrollTop': $target.offset().top
+  //         }, 900, 'swing', function() {
+  //             window.location.hash = target;
+  //         });
+  //     });
+  // });
+//   </script>
