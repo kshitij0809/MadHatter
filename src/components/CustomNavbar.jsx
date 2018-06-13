@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './CustomNavbar.css'
-
+import logo from './Violet-Arrow-Communications.jpg'
 
 export default class CustomNavbar extends Component {
   render() {
@@ -10,7 +10,7 @@ export default class CustomNavbar extends Component {
       <Navbar default collapseOnSelect >
         <Navbar.Header>
           <Navbar.Brand>
-            <Link to="/" className="logo">Violet Arrow Communications</Link>
+            <Link to="/" className="logo"><img className="logo-image" src={logo}/></Link>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>

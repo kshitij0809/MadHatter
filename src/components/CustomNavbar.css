@@ -119,6 +119,18 @@ nav.navbar-inverse>li>a {
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle {
     background-color: cadetblue;
 }
+.logo-image {
+    width: 36vw !important;
+}
 }
 
-
+.navbar-brand {
+    float: left;
+    height: 0px; 
+    padding: 0px 0px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.logo-image{
+  width: 11vw;
+}
