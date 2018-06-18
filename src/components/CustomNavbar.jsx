@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './CustomNavbar.css'
-import logo from './Violet-Arrow-Communications.jpg'
+import logo from './logo.svg'
 
 export default class CustomNavbar extends Component {
   render() {

@@ -1,5 +1,5 @@
 nav.navbar, .navbar-default {
-background: black !important;
+background: #ea4949 !important;
    
 }
 
@@ -58,7 +58,7 @@ background: black !important;
 }
 .navbar {
     position: relative;
-    min-height: 80px;
+    min-height: 100px;
     margin-bottom: 0px;
     border: 1px solid transparent;
 }
@@ -94,11 +94,13 @@ a:hover,a:active,a:checked {
     border: 1px solid transparent;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    background-color: black;
+    background-color: #ea4949;
+    margin-top: 25px;
     /* height: 143px; */
     position: absolute;
     z-index: 10;
     width: 100%;
+    
 }
 .navbar-nav>li {
     float: left;
@@ -132,5 +134,12 @@ nav.navbar-inverse>li>a {
     line-height: 20px;
 }
 .logo-image{
-  width: 11vw;
+  width: 12vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 20px;
+}
+.navbar-collapse{
+  padding: 15px;
 }
