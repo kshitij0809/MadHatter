@@ -95,7 +95,7 @@ a:hover,a:active,a:checked {
     border: 1px solid transparent;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    background-color: #ea4949;
+    background-color: white;
     margin-top: 25px;
     /* height: 143px; */
     position: absolute;

@@ -245,8 +245,6 @@ body{
     height: 100vh;
 }
 .content-section-b{
-  background: -webkit-linear-gradient(rgba(246, 247, 249, 0.8), rgba(246, 247, 249, 0.8)), url(/assets/bgimagetwo.jpg) no-repeat center center fixed;
-  background:  url(/assets/bgimagetwo.jpg) no-repeat center center;
   background-size: cover;
 }
 .mobile{
@@ -279,11 +277,11 @@ h2.section-heading {
 .content-section-a p {
     font-size: 17px;
     font-weight: 700;
-    color: deepskyblue;
+    color: black;
     padding: 2.8vw;
     padding-top: 50px;
 }
 .one{
-  color: white  !important;
+  color: black  !important;
 }
 }
