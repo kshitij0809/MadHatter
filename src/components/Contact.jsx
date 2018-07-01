@@ -6,57 +6,56 @@ import './Contact.css';
 export default class Contact extends Component {
   render() {
     return (
-      <Grid>       
+      <div className="contact-section">
+      <Grid >       
         <Row>
           <Col xs={12} sm={8} md={8} className="col-contact-image">
             <Image src="assets/bg-01.jpg" className="Contact-image"/>
          </Col>  
           <Col xs={12} sm={4} md={4} className="person-wrapper">
-           <span class="contact100-form-title">
+           <span className="contact100-form-title">
           Contact Us With
         </span>
-         <span class="contact100-number">
-          +91898765421
-        </span>
-         <span class="contact100-number">
-          +91898765421
-        </span>
-         <span class="contact100-email">
-          kshitijpratap0809@gmail.com
+         <span className="contact100-number">
+          +9538100580
+        </span>        
+         <span className="contact100-email">
+          info@violetarrow.com
         </span>
 
-<footer id="social">
-  <div id="container">
-  <h1 class="footer-heading">SOCIAL LINKS</h1>
-          <ul class="social-liks-list">
+            <footer id="social">
+              <div id="container">
+              <h1 className="footer-heading">SOCIAL LINKS</h1>
+                    <ul className="social-liks-list">
 
-              <li class='highlight'>
-                  <a class="fa-stack fa-1x footer-anchor" href="@@@@@" target="_blank"><i class="fab fa-behance-square fa-stack-2x"></i></a>
-              </li>
+                      <li className='highlight'>
+                          <a className="social-media-link fa-stack fa-1x footer-anchor" href="@@@@@" target="_blank"><i className="fab fa-behance-square fa-stack-2x"></i></a>
+                      </li>
 
-              
-               <li class='highlight'>
-                  <a class="fa-stack fa-1x footer-anchor" href="@@@@@" target="_blank"><i class="fab fa-medium-m fa-stack-2x"></i></a>
-              </li>
-              
-              <li class='highlight'>
-                  <a class="fa-stack fa-1x footer-anchor" href="@@@@@" target="_blank"><i class="fab fa-dribbble fa-stack-2x"></i></a>
-              </li>
+                      
+                       <li className='highlight'>
+                          <a className="social-media-link fa-stack fa-1x footer-anchor" href="@@@@@" target="_blank"><i className="fab fa-medium-m fa-stack-2x"></i></a>
+                      </li>
+                      
+                      <li className='highlight'>
+                          <a className="social-media-link fa-stack fa-1x footer-anchor" href="@@@@@" target="_blank"><i className="fab fa-dribbble fa-stack-2x"></i></a>
+                      </li>
 
 
-               <li class='highlight'>
-                  <a class="fa-stack fa-1x footer-anchor" href="@@@@@" target="_blank"><i class="fab fa-linkedin fa-stack-2x"></i></a>
-              </li>
+                       <li className='highlight'>
+                          <a className="social-media-link fa-stack fa-1x footer-anchor" href="@@@@@" target="_blank"><i className="fab fa-linkedin fa-stack-2x"></i></a>
+                      </li>
 
-          </ul>
-       </div>
-    </footer>
+                  </ul>
+               </div>
+            </footer>
 
 
 
          </Col>         
         </Row>
       </Grid>
+      </div>
     )
   }
 }

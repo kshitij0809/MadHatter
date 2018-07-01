@@ -3,6 +3,9 @@
 	height: 100%;
 	
 }
+.contact-section{
+  background-color: #f4f5f7;
+}
 .col-contact-image{
 	padding-right: 0px;
     padding-left: 0px;
@@ -11,8 +14,7 @@
 
 .contact100-form-title {
   width: 100%;
-  display: block;
-  font-family: Poppins-Regular;
+  display: block;  
   font-size: 30px;
   color: #333333;
   line-height: 1.2;
@@ -22,8 +24,7 @@
 }
 .contact100-number{
 	 width: 100%;
-  display: block;
-  font-family: Poppins-Regular;
+  display: block;  
   font-size: 20px;
   color: #333333;
   line-height: 1.2;
@@ -32,8 +33,7 @@
 }
 .contact100-email{
 	 width: 100%;
-  display: block;
-  font-family: Poppins-Regular;
+  display: block;  
   font-size: 20px;
   color: grey;
   line-height: 1.2;
@@ -66,6 +66,9 @@
 	font-size: 2em;
 	color: black;
 
+}
+.social-media-link{
+  color: black !important;
 }
 
 

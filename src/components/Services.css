@@ -8,7 +8,9 @@
   float: left;
   margin: 0 1em 1em 0;
 }
-
+.service-section{
+  background-color: #f4f5f7;
+}
 
 a.service-link {
     text-decoration: none;
@@ -20,9 +22,10 @@ a.service-link {
 }
 
 p.services-para {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin: 1rem 0;
     line-height: 1.5;
+    padding: 20px;
 }
 
 section.ourservices {
@@ -30,6 +33,7 @@ section.ourservices {
   margin: 0 auto;
   text-align: center;
   padding: 30px;
+  
 }
 
 h3.services-heading{
@@ -153,4 +157,17 @@ section.ourservices {
     -webkit-box-direction: normal;
     flex-direction: column;
   }
+}
+.service-image{
+  width: 100%;
+  border-radius: 0.5em;
+}
+.service-sub-heading{
+    padding: 35px;
+    color: black;
+    font-size: 2.3em;
+    font-weight: 700;
+}
+.service-photos{
+  padding: 50px;
 }

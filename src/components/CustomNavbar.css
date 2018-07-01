@@ -1,5 +1,5 @@
 nav.navbar, .navbar-default {
-background: #ea4949 !important;
+background: white !important;
    
 }
 
@@ -16,21 +16,21 @@ background: #ea4949 !important;
     padding: 3px;
 }
 .navbar-default .navbar-nav > li > a {
-  color: white;
+  color: black;
 }
 .navbar-default .navbar-nav>li>a:hover{
-  color: white;
+  color: black;
 }
 .navbar-default .navbar-brand {
   
 }
 
 .navbar-default .navbar-toggle {
-  border-color: white;
+  border-color: black;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: white;
+  background-color: black;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
@@ -43,7 +43,7 @@ background: #ea4949 !important;
 
 .navbar-default .navbar-nav>li>a:focus {
   background-color: transparent;
-  color: white;
+  color: black;
 }
 .logo{
    font-family: 'Open Sans', sans-serif;
@@ -134,10 +134,10 @@ nav.navbar-inverse>li>a {
     line-height: 20px;
 }
 .logo-image{
-  width: 12vw;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 10px;
+  width: 14vw;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 2px;
   padding-left: 20px;
 }
 .navbar-collapse{

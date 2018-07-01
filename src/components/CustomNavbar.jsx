@@ -18,7 +18,7 @@ export default class CustomNavbar extends Component {
           <Nav pullRight fixedTop>
             
             <NavItem eventKey={1} componentClass={Link} href="/" to="/">
-              <a href="#about">About Us</a>
+              About Us
             </NavItem>
             <NavItem eventKey={2} componentClass={Link} href="/services" to="/services">
               Services
