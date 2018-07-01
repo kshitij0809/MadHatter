@@ -3,6 +3,7 @@ background: white !important;
    
 }
 
+
 .navbar-default {
   background-image: none;
   border: none;
@@ -142,4 +143,24 @@ nav.navbar-inverse>li>a {
 }
 .navbar-collapse{
   padding: 15px;
+}
+
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid red;
 }

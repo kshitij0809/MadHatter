@@ -15,7 +15,7 @@ export default class CustomNavbar extends Component {
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
-          <Nav pullRight fixedTop>
+          <Nav pullRight fixedTop className="topnav">
             
             <NavItem eventKey={1} componentClass={Link} href="/" to="/">
               About Us

@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 import { Grid, Col, Image } from 'react-bootstrap';
 import './Services.css';
-import social from './servicesImages/social.jpg'
-import web from './servicesImages/web.jpg'
-import content from './servicesImages/content.jpg'
-import graphic from './servicesImages/graphic.jpg'
-import business from './servicesImages/business.jpg'
-import shooting from './servicesImages/shooting.jpg'
-import photography from './servicesImages/photography.jpg'
-import styling from './servicesImages/styling.jpg'
+// import social from './servicesImages/social.jpg'
+// import web from './servicesImages/web.jpg'
+// import content from './servicesImages/content.jpg'
+// import graphic from './servicesImages/graphic.jpg'
+// import business from './servicesImages/business.jpg'
+// import shooting from './servicesImages/shooting.jpg'
+// import photography from './servicesImages/photography.jpg'
+// import styling from './servicesImages/styling.jpg'
 
 export default class Services extends Component {
   render() {
@@ -28,12 +28,12 @@ export default class Services extends Component {
                 </p>
               </div>
               <div class="col-md-5 service-photos">
-                <img src={social} className="service-image"/>
+                <img src='servicesImages/social.jpg' className="service-image"/>
               </div>
             </div>
              <div class="row">
               <div class="col-md-5 service-photos">
-                <img src={web} className="service-image"/>
+                <img src='servicesImages/web.jpg' className="service-image"/>
               </div>
               <div class="col-md-7">
                 <h4 className="service-sub-heading">Website/ UX/UI designing</h4>
@@ -56,13 +56,13 @@ export default class Services extends Component {
                 </p>
               </div>
               <div class="col-md-5 service-photos">
-                <img src={content} className="service-image"/>
+                <img src='servicesImages/content.jpg' className="service-image"/>
               </div>
             </div>
 
             <div class="row">
               <div class="col-md-5 service-photos">
-                <img src={graphic} className="service-image"/>
+                <img src='servicesImages/graphic.jpg' className="service-image"/>
               </div>
               <div class="col-md-7">
                 <h4 className="service-sub-heading">Graphic Designing</h4>
@@ -79,13 +79,13 @@ export default class Services extends Component {
                 <p className="services-para">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
               <div class="col-md-5 service-photos">
-                <img src={business} className="service-image"/>
+                <img src='servicesImages/business.jpg' className="service-image"/>
               </div>
             </div>
 
             <div class="row">
               <div class="col-md-5 service-photos">
-                <img src={shooting} className="service-image"/>
+                <img src='servicesImages/shooting.jpg' className="service-image"/>
               </div>
               <div class="col-md-7">
                 <h4 className="service-sub-heading">Shooting for short films</h4>
@@ -99,13 +99,13 @@ export default class Services extends Component {
                 <p className="services-para">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
               <div class="col-md-5 service-photos">
-                <img src={photography} className="service-image"/>
+                <img src='servicesImages/photography.jpg' className="service-image"/>
               </div>
             </div>
 
             <div class="row">
               <div class="col-md-5 service-photos">
-                <img src={styling} className="service-image"/>
+                <img src='servicesImages/styling.jpg' className="service-image"/>
               </div>
               <div class="col-md-7">
                 <h4 className="service-sub-heading">Styling</h4>
